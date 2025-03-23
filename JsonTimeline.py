@@ -11,7 +11,7 @@ import io
 
 ##opens file to read
 # opens file to read
-with open('C:\\Users\\schle\\PycharmProjects\\PythonProject\\Log Generator\\application_sign_in_logs.json', 'r') as f:
+with open('PathtoFile', 'r') as f:
     # Use json.load(f) to deserialize and store in json_data, if using a string use json.loads()
     json_data = json.load(f)
 
